@@ -1,11 +1,14 @@
 import Navbar from "./component/Navbar";
+import Home from "./pages/home"; // Make sure the case matches the file name
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      {/* Other components */}
-    </div>
+    <>
+      <div>
+        <Navbar />
+        <Home /> {/* Fixed to properly include the Home component */}
+      </div>
+    </>
   );
 }
 

@@ -54,11 +54,7 @@ function Navbar() {
             Contact
           </a>
         </li>
-        <li>
-          <a href="#" className="block py-2 px-4 bg-blue-600 hover:bg-blue-500 rounded md:inline">
-            Login
-          </a>
-        </li>
+        
       </ul>
     </nav>
   );
