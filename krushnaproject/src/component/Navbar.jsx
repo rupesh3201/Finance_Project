@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-800 text-white px-4 py-3 md:flex md:items-center md:justify-between">
+    <nav className="bg-indgio-600 text-cyan-800 px-4 py-3 md:flex md:items-center md:justify-between">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">FinancePro</h1>
         <button
